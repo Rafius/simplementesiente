@@ -1,0 +1,154 @@
+{
+	"basics": {
+		"name": "Rafael Puyol Fernandez",
+		"label": "Full Stack Web Developer | React & Redux, Node, SASS",
+		"picture": "./profilePhoto.jpg",
+		"email": "rafaelpuyol93@gmail.com",
+		"phone": "625926240",
+		"website": "http://rafaelpuyol.com",
+		"summary": "Over the past 2 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript.My current role at Tecnocom-Indra is Front End Developer in a small React team developing with React and Redux the new User interface for TAS of CaixaBank ",
+		"location": {
+			"address": "C/Sant Fructuoso",
+			"postalCode": "08004",
+			"city": "Barcelona",
+			"countryCode": "Spain",
+			"region": "Cataluña"
+		},
+		"profiles": [{
+				"network": "Twitter",
+				"username": "rafius1993",
+				"url": "https://twitter.com/Rafius1993"
+			},
+			{
+				"network": "Github",
+				"username": "Rafius",
+				"url": "https://github.com/Rafius"
+			},
+			{
+				"linkedin": "linkedin",
+				"username": "rafael-puyol-fernandez-0ab7b6100",
+				"url": "https://www.linkedin.com/in/rafael-puyol-fernandez-0ab7b6100/"
+			}
+		]
+	},
+	"work": [{
+			"company": "Tecnocom-Indra",
+			"position": "Front End Developer (Barcelona)",
+			"website": "http://www.tecnocom.es/",
+			"startDate": "2017-11",
+			"endDate": "",
+			"summary": "In my current rol I'm developing the new user interface for TAS of CaixaBank.",
+			"highlights": []
+		},
+		{
+			"company": "Luca-tic",
+			"position": "Front End Developer (Málaga)",
+			"website": "http://www.luca-tic.com/",
+			"startDate": "2016-10",
+			"endDate": "2017-09",
+			"summary": "During my time at Luca-tic I was working from Accenture in the development of the Iberdrola Client Area web application,based in AngularJs.",
+			"highlights": []
+		},
+		{
+			"company": "Transportega",
+			"position": "Full Stack Developer (Málaga)",
+			"website": "http://transportega.com/",
+			"startDate": "2015-08",
+			"endDate": "2015-12",
+			"summary": "Development and maintenance of applications for a transport company with C#.",
+			"highlights": []
+		}
+	],
+	"volunteer": [],
+	"education": [{
+		"institution": "I.E.S Romero Esteo",
+		"area": "Network and Computer Systems Administrator",
+		"startDate": "2013-09-15",
+		"endDate": "2016-06-22",
+		"description": ""
+	}],
+	"courses": [{
+		"institution": "Udacity (Online)",
+		"area": "React Developer Nanodegree",
+		"startDate": "2017-06",
+		"endDate": "2017-10",
+		"hours": "400",
+		"description": [{
+				"name":"React Fundamentals"
+			},
+			{
+				"name": "React & Redux"
+			},
+			{
+				"name": "React native"
+			}
+		]
+	},
+	{
+	"institution": "Luca-Tic (Madrid)",
+	"area": "Development of fullstack application with Java & Angular",
+	"startDate": "2016-08",
+	"endDate": "2016-10",
+	"hours": "300",
+	"description": [{
+				"name":"Backend Developer with J2EE, Spring, Struts, Sibernate, Jsf."
+			},
+			{
+				"name": "Frontend Developer using Javascript, Jquery, AngularJs, Html5, Css3, Bootstrap. "
+			}
+		]
+	},
+	{
+	"institution": "UMA-Samsung (Málaga)",
+	"area": "Development of Android applications",
+	"startDate": "2016-03",
+	"endDate": "2016-05",
+	"hours": "210",
+	"description": [{
+				"name":"Object-oriented java programming course."
+			},
+			{
+				"name": "Android programming course."
+			},
+			{
+				"name": "Certificate with remarkable by Samsung."
+			}
+		]
+	}],
+	"awards": [],
+	"publications": [],
+	"skills": [{
+		"name": "Front End Development",
+		"level": "Master",
+		"keywords": [
+			"React",
+			"Redux",
+			"Javascript",
+			"ES6",
+			"HTML5",
+			"CSS3",
+			"SASS",
+			"Responsive",
+			"Foundation",
+			"Bootstrap",
+			"Node",
+			"MySQL",
+			"Linux",
+			"Java"
+		]
+	}],
+	"languages": [{
+			"language": "Spanish",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "B2"
+		}
+	],
+	"interests": [{
+		"name": "Volleyball",
+		"keywords": []
+	}],
+	"references": []
+}
