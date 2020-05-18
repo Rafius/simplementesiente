@@ -1,6 +1,6 @@
 import React, { useEffect} from 'react';
 import ReactGa from 'react-ga';
-import { DashboardWrapper, Content, GlobalStyle } from './dashboard.styled'
+import { Content, GlobalStyle } from './dashboard.styled'
 import { Header, Footer } from '../../components'
 
 const Dashboard = ({ children }) => {
@@ -11,14 +11,14 @@ const Dashboard = ({ children }) => {
   }, [])
 
   return (
-   <DashboardWrapper>
+   <>
      <GlobalStyle />
      <Header />
      <Content>
       {children}
      </Content>
      <Footer />
-   </DashboardWrapper>
+   </>
   );
 }
 
