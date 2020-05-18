@@ -2,27 +2,25 @@
   {
     "className":"fab fa-facebook-f fa-2x",
     "href":"https://www.facebook.com/simplementesiente",
-    "index":0
-  },
-  {
-    "className":"fab fa-twitter fa-2x",
-    "index": 1
-  },
-  {
-    "className":"fab fa-google-plus-g fa-2x",
-    "index": 2
+    "target": "blank",
+    "index": 0
   },
   {
     "className":"fab fa-linkedin-in fa-2x",
-    "index": 3
+    "href": "https://www.linkedin.com/in/mar%C3%ADa-ler%C3%ADn-berna-a96a71156/",
+    "target": "blank",
+    "index": 1
   },
   {
     "className":"fab fa-instagram fa-2x",
     "href":"https://www.instagram.com/simplementesiente/",
-    "index": 4
+    "target": "blank",
+    "index": 2
   },
   {
-    "className":"fab fa-pinterest fa-2x",
-    "index": 5
+    "className":"far fa-envelope fa-2x",
+    "href":"mailto:marialerinberna@gmail.com",
+    "target": "none",
+    "index": 3
   }
 ]

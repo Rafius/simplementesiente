@@ -5,8 +5,8 @@ import icons from './icons.json'
 const Footer = () => (
   <FooterWrapper>
     <IconsWrapper>
-      {icons.map(({ className, index, href })=>
-        <Icon key={index} href={href} target="blank">
+      {icons.map(({ className, index, href, target })=>
+        <Icon key={index} href={href} target={target}>
           <i className={className}> </i>
         </Icon>
       )}
