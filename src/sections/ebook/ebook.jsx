@@ -1,10 +1,18 @@
 import React from 'react'
-
-import { ProfileContainer, ImageWrapper, Image, IconsWrapper, DescriptionWrapper, PdfLink, Icon} from './profile.styled'
+import { ProfileContainer, ImageWrapper, Image, IconsWrapper, DescriptionWrapper, PdfLink, Icon} from './ebook.styled'
 import Img from './img.jpg'
-import Pdf from './index.pdf';
+import pdf from './index.pdf';
+import ReactGa from 'react-ga';
 
-const Profile = () => {
+const Ebook = () => {
+  const handleClick = () => {
+    ReactGa.event({
+      category:'button',
+      action:'pdf button'
+    })
+    window.open(pdf, 'blank')
+  }
+
   return (
     <ProfileContainer>
       <ImageWrapper>
@@ -24,11 +32,10 @@ const Profile = () => {
             Te presento el eBook que, junto con la nutricionista Miriam Vitoria, hemos escrito para 
             ayudarte a identificar los diferentes tipos de hambre, así como las emociones asociadas con ellos.
         </p>
-        <PdfLink href={Pdf} target="blank">Descarga el indice ahora</PdfLink>
+        <PdfLink onClick={handleClick}>Descarga el indice ahora</PdfLink>
       </DescriptionWrapper>
-      
     </ProfileContainer>
   )
 }
 
-export default Profile
+export default Ebook

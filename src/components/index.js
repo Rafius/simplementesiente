@@ -1,3 +1,10 @@
-import Profile from "./profile"
+import Menu from './menu'
+import Header from './header'
+import Footer from './footer'
 
-export { Profile }
+export { 
+  Menu,
+  Header,
+  Footer
+}
+

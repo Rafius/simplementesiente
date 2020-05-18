@@ -34,7 +34,7 @@ export const InstagramImg = styled.a`
   max-height: 10px;
 `
 
-export const PdfLink = styled.a`
+export const PdfLink = styled.button`
   border: none;
   font-family: inherit;
   font-size: inherit;
