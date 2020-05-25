@@ -2,15 +2,14 @@ import styled from 'styled-components';
 
 export const AboutWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: auto 0;
-  align-items: center;
   justify-content: center;
-  color: black;
 `
 export const Image = styled.img`
   width: 400px;
-  margin: 20px;
+  margin: 50px;
+  background-size: cover;
 `
 
 export const InfoWrapper = styled.div`
@@ -19,7 +18,7 @@ export const InfoWrapper = styled.div`
 
 export const DataWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 `
 
 export const Title = styled.h3`
