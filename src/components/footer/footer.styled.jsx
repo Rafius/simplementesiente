@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const FooterWrapper = styled.footer`
   height: 60px;
-  background-color: #1c2331;
+  background-color: #864761;
 `
 
 export const IconsWrapper = styled.div`

@@ -1,7 +1,7 @@
 import Dashboard from './dashboard'
 import Home from './home'
 import About from './about'
-import Team from './team'
+import Nutrition from './nutrition'
 import Services from './services'
 import Ebook from './ebook'
 import Contact from './contact'
@@ -10,7 +10,7 @@ export {
   Dashboard,
   Home,
   About,
-  Team,
+  Nutrition,
   Services,
   Ebook, 
   Contact

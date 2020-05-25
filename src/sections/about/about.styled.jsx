@@ -19,23 +19,20 @@ export const InfoWrapper = styled.div`
 
 export const DataWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 `
 
 export const Title = styled.h3`
   font-size: 32px;
   text-decoration: underline;
   margin: 20px 0;
+  color: #425440;
+  text-align: center;
 `
 
 export const Description = styled.p`
   margin: 20px 0;
   margin-top:0;
-  font-size: 16px;
   line-height: 22px;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 2px;
-  color: #69615F;
-  font-family: FS Meridian Regular,sans-serif;
+  color: #864761;
 `

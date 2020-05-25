@@ -9,8 +9,8 @@
     "index": 1
   },
   {
-    "name": "MI EQUIPO",
-    "route":"/team",
+    "name": "NUTRICION",
+    "route":"/nutrition",
     "index": 2
   },
   {

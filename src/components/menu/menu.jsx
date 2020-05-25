@@ -5,8 +5,8 @@ import data from './menu.json'
 
 const Menu = () => {
   let history = useHistory()
-  const getInitialSection = () => data.find(({ route }) => route === history.location.pathname).index
-  const [activeItem, setActiveItem] = useState(getInitialSection())
+  // const getInitialSection = () => data.find(({ route }) => route === history.location.pathname).index
+  const [activeItem, setActiveItem] = useState()
 
   const handleClick = (route, index) => {
     history.push(route)

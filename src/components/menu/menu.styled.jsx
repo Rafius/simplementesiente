@@ -6,7 +6,7 @@ export const MenuWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 80px;
-  background-color: #1c2331;
+  background-color: #864761;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 `
 
