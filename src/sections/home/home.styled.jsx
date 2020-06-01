@@ -9,8 +9,8 @@ export const HomeWrapper = styled.div`
 export const DescriptionWrapper = styled.div`
   margin: auto;
   max-width: 800px;
-  color: #4E1D26;
-  font-family: "AdventProBold";
+  color: "#4E1D26";
+  font-family: AdventPro;
   font-size: 22px;
   line-height: 26px;
 `

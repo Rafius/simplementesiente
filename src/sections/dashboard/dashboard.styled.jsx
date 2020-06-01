@@ -16,4 +16,5 @@ export const Content = styled.div`
   min-height: calc(100vh - 140px);
   background-color: #FFEDF9;
   color:#864761;
+  font-family: AdventPro;
 `

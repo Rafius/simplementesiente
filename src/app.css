@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: AdventPro;
+  src: url("./assets/fonts/AdventPro-Bold.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: Regular;
+}
+
+*:focus {
+  outline: none;
+}
+
+
+@font-face {
+  font-family: 'AdventPro';
+  src: local('AdventPro'), url(${AdventPro}) format('tff');
+  font-style: normal;
+}

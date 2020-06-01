@@ -1,8 +1,7 @@
 import React, { useEffect} from 'react';
 import ReactGa from 'react-ga';
-import { Content, GlobalStyle, P, Img, Container, Title } from './dashboard.styled'
+import { Content, GlobalStyle } from './dashboard.styled'
 import { Header, Footer } from '../../components'
-import Home from '../home'
 
 const Dashboard = ({ children }) => {
   useEffect(() => {
@@ -11,7 +10,6 @@ const Dashboard = ({ children }) => {
    ReactGa.pageview('/')
   }, [])
 
-  console.log(children)
   return (
    <>
      <GlobalStyle />
