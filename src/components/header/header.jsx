@@ -1,10 +1,9 @@
 import React from 'react'
 import { Menu } from '../'
 
-const Header = () => {
-  return (
-    <Menu />
-  )
-}
+const Header = () =>  (
+  <Menu />
+)
+
 
 export default Header

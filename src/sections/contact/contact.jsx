@@ -1,8 +1,10 @@
 import React from 'react'
+import { Form } from "./contact.styled"
+
 
 const Contact = () => (
   <div>
-    Contact
+    <Form to="rafius93@gmail.com" />
   </div>
 )
 

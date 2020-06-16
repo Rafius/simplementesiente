@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle  }  from 'styled-components'
+import styled, { createGlobalStyle }  from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     position: absolute;
     width: 100%;
+    font-family: Bold;
   }
 `
 
@@ -16,5 +17,4 @@ export const Content = styled.div`
   min-height: calc(100vh - 140px);
   background-color: #FFEDF9;
   color:#864761;
-  font-family: AdventPro;
 `

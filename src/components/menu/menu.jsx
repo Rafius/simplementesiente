@@ -13,12 +13,13 @@ const Menu = () => {
     setActiveItem(index)
   }
 
-  return(
+  return (
     <MenuWrapper>
       {data.map(({ name, route, index }) => 
-        <Item key={index} onClick={()=> handleClick(route, index)} isActive={index===activeItem}>{name}</Item>
+        <Item key={index} onClick={() => handleClick(route, index)} isActive={index===activeItem}>{name}</Item>
       )}
     </MenuWrapper>
   )
 }
+
 export default Menu

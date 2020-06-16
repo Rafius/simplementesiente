@@ -36,7 +36,6 @@ export const InstagramImg = styled.a`
 
 export const PdfLink = styled.button`
   border: none;
-  font-family: inherit;
   font-size: inherit;
   color: inherit;
   background: none;

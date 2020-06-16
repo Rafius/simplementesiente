@@ -1,7 +1,37 @@
 
 @font-face {
-  font-family: AdventPro;
+  font-family: Bold;
   src: url("./assets/fonts/AdventPro-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: ExtraLight;
+  src: url("./assets/fonts/AdventPro-ExtraLight.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Light;
+  src: url("./assets/fonts/AdventPro-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Medium;
+  src: url("./assets/fonts/AdventPro-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("./assets/fonts/AdventPro-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: SemiBold;
+  src: url("./assets/fonts/AdventPro-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Thin;
+  src: url("./assets/fonts/AdventPro-Thin.ttf") format('truetype');
 }
 
 body {
@@ -11,11 +41,4 @@ body {
 
 *:focus {
   outline: none;
-}
-
-
-@font-face {
-  font-family: 'AdventPro';
-  src: local('AdventPro'), url(${AdventPro}) format('tff');
-  font-style: normal;
 }

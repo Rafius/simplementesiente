@@ -14,6 +14,7 @@ export const Image = styled.img`
 
 export const InfoWrapper = styled.div`
   max-width: 600px;
+  margin-top: 30px;
 `
 
 export const DataWrapper = styled.div`
@@ -27,6 +28,7 @@ export const Title = styled.h3`
   margin: 20px 0;
   color: #425440;
   text-align: center;
+  line-height: 25px;
 `
 
 export const Description = styled.p`

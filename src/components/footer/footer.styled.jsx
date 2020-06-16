@@ -14,12 +14,10 @@ export const IconsWrapper = styled.div`
 `
 
 export const Icon = styled.a`
-  text-decoration: none;
   margin-right: 25px;
   cursor: pointer;
 
   svg {
     color: white;
-    text-decoration: none;
   }
 `
