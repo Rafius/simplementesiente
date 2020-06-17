@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
-import { Dashboard,  About, Nutrition, Services, Ebook, Contact } from '../../sections'
-import Home from '../../sections/home'
+import { Dashboard, Home, About, Nutrition, Services, Ebook } from '../../sections'
+import { ContactContainer } from "../../containers"
 
 const DashboardRouter = () => (
   <Dashboard>
@@ -11,7 +11,7 @@ const DashboardRouter = () => (
       <Route path='/nutrition' component={Nutrition} />
       <Route path='/services' component={Services} />
       <Route path='/ebook' component={Ebook} />
-      <Route path='/contact' component={Contact} />  
+      <Route path='/contact' component={ContactContainer} />  
       
       <Redirect to='/' />
     </Switch>
