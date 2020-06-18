@@ -4,7 +4,7 @@ import { sendEmail } from "../../reducers/email/emailActions"
 import { Contact } from '../../sections'
 
 const mapStateToProps = state => ({
-  state: state
+  state
 })
 
 const mapDispatchToProps = {
