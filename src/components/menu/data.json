@@ -1,32 +1,32 @@
-[ 
+[
   {
     "name": "INICIO",
-    "route":"/",
+    "route": "/",
     "index": 0
   },
   {
     "name": "SOBRE MI",
-    "route":"/about",
+    "route": "/about",
     "index": 1
   },
   {
     "name": "NUTRICION",
-    "route":"/nutrition",
+    "route": "/nutrition",
     "index": 2
   },
   {
     "name": "SERVICIOS",
-    "route":"/services",
+    "route": "/services",
     "index": 3
   },
   {
     "name": "MANUAL MI HAMBRE Y YO",
-    "route":"/ebook",
+    "route": "/ebook",
     "index": 4
   },
   {
     "name": "CONTACTO",
-    "route":"/contact",
+    "route": "/contact",
     "index": 5
   }
 ]

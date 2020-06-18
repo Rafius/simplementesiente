@@ -1,9 +1,6 @@
-import React from 'react'
-import { Menu } from '../'
+import React from "react";
+import { Menu } from "../header.styled";
 
-const Header = () =>  (
-  <Menu />
-)
+const Header = () => <Menu />;
 
-
-export default Header
+export default Header;

@@ -1,3 +1,3 @@
-export * from './emailActions'
+export * from './emailActions';
 
-export { default } from "./emailReducer"
+export { default } from './emailReducer';

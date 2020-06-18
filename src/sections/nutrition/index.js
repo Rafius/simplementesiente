@@ -1,1 +1,1 @@
-export { default } from './nutrition.jsx'
+export { default } from './nutrition';

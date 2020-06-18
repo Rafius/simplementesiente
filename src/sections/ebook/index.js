@@ -1,3 +1,1 @@
-import Ebook from './ebook';
-
-export default Ebook;
+export { default } from './ebook';

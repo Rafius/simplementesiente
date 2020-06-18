@@ -7,7 +7,7 @@ import {
   Title,
   Description,
 } from "./about.styled";
-import about from "./about.json";
+import about from "./data.json";
 import Img from "./img.jpg";
 
 const About = () => (
