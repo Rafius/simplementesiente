@@ -39,9 +39,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src",
+    "lint": "prettier --write ./src && eslint ./src --fix",
     "lint:fix": "eslint ./src --fix",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prettier": "prettier --write ./src"
   },
   "eslintConfig": {
     "extends": "react-app"

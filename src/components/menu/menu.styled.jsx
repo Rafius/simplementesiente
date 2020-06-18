@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from "styled-components";
 
 export const MenuWrapper = styled.div`
   display: flex;
@@ -8,13 +8,13 @@ export const MenuWrapper = styled.div`
   height: 80px;
   background-color: #864761;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-`
+`;
 
 const hover = css`
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 6px 0; 
-`
+  padding: 6px 0;
+`;
 
 export const Item = styled.a`
   color: white;
@@ -27,4 +27,4 @@ export const Item = styled.a`
   :hover {
     ${hover}
   }
-`
+`;

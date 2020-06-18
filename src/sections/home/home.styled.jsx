@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const HomeWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-`
+`;
 
 export const DescriptionWrapper = styled.div`
   margin: auto;
@@ -12,10 +12,10 @@ export const DescriptionWrapper = styled.div`
   color: "#4E1D26";
   font-size: 22px;
   line-height: 26px;
-`
+`;
 
 export const Img = styled.img`
-  background-image: url('https://i.imgur.com/kHibdhX.png');
+  background-image: url("https://i.imgur.com/kHibdhX.png");
   width: 1000px;
   height: 300px;
   min-width: 100%;
@@ -23,4 +23,4 @@ export const Img = styled.img`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-`
+`;
