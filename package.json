@@ -7,7 +7,10 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
@@ -22,8 +25,15 @@
     "redux-form": "^8.3.6",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.1.0",
-    "styled-icons": "^10.2.1"
+    "styled-icons": "^10.2.1",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-prettier": "^1.1.2"
   },
+  "lint-staged": {
+       "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+        "prettier --write"
+       ]
+     },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,5 +54,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "husky": {
+        "hooks": {
+          "pre-commit": "lint-staged"
+        }
+      }
 }
