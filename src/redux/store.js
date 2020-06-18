@@ -7,7 +7,7 @@ import axios from "axios"
 import rootReducer from "../reducers"
 
 const client = axios.create({
-	baseURL: "http://localhost:8080/",
+	baseURL: "https://simplementesiente-api.herokuapp.com/",
 	responseType: "json"
 })
 

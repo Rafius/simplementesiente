@@ -15,11 +15,6 @@
 		"index": 2
 	},
 	{
-		"name": "SERVICIOS",
-		"route": "/services",
-		"index": 3
-	},
-	{
 		"name": "MANUAL MI HAMBRE Y YO",
 		"route": "/ebook",
 		"index": 4

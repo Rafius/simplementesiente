@@ -1,5 +1,18 @@
 import React from "react"
 import { Field, reduxForm } from "redux-form"
+import { FormWrapper, FieldWrapper } from "./contact.styled"
+import data from "./data"
+
+const renderField = ({ input, label, type, meta: { touched, error } }) => (
+	<FieldWrapper>
+		<label>{label}</label>
+		<div>
+			<input {...input} placeholder={label} type={type} />
+			{touched && error && <span>{error}</span>}
+		</div>
+	</FieldWrapper>
+)
+
 const Contact = ({ sendEmail, error, handleSubmit }) => {
 	const handleButton = () => {
 		const email = {
@@ -11,35 +24,16 @@ const Contact = ({ sendEmail, error, handleSubmit }) => {
 		sendEmail(email)
 	}
 
-	const renderField = ({ input, label, type, meta: { touched, error } }) => (
-		<div>
-			<label>{label}</label>
-			<div>
-				<input {...input} placeholder={label} type={type} />
-				{touched && error && <span>{error}</span>}
-			</div>
-		</div>
-	)
-
 	return (
-		<form>
-			<Field
-				name="username"
-				type="text"
-				component={renderField}
-				label="Username"
-			/>
-			<Field
-				name="password"
-				type="password"
-				component={renderField}
-				label="Password"
-			/>
+		<FormWrapper>
+			{data.map(({ name, type, component, label }) => (
+				<Field name={name} type={type} component={renderField} label={label} />
+			))}
 			{error && <strong>{error}</strong>}
 			<button type="button" onClick={handleButton}>
 				Submit
 			</button>
-		</form>
+		</FormWrapper>
 	)
 }
 

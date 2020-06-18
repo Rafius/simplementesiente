@@ -1,4 +1,8 @@
-import { SEND_EMAIL_START } from "./emailActions"
+import {
+	SEND_EMAIL_START,
+	SEND_EMAIL_SUCCESS,
+	SEND_EMAIL_FAIL
+} from "./emailActions"
 
 export const sendEmailStartHandler = state => ({
 	...state,
