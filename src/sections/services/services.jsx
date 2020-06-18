@@ -1,5 +1,5 @@
-import React from "react";
+import React from "react"
 
-const Services = () => <div>services</div>;
+const Services = () => <div>services</div>
 
-export default Services;
+export default Services

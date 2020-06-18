@@ -1,1 +1,1 @@
-export { default } from './nutrition';
+export { default } from "./nutrition"

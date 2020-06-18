@@ -1,43 +1,43 @@
 @font-face {
-  font-family: Bold;
-  src: url("./assets/fonts/AdventPro-Bold.ttf") format("truetype");
+	font-family: Bold;
+	src: url("./assets/fonts/AdventPro-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: ExtraLight;
-  src: url("./assets/fonts/AdventPro-ExtraLight.ttf") format("truetype");
+	font-family: ExtraLight;
+	src: url("./assets/fonts/AdventPro-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Light;
-  src: url("./assets/fonts/AdventPro-Light.ttf") format("truetype");
+	font-family: Light;
+	src: url("./assets/fonts/AdventPro-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Medium;
-  src: url("./assets/fonts/AdventPro-Medium.ttf") format("truetype");
+	font-family: Medium;
+	src: url("./assets/fonts/AdventPro-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Regular;
-  src: url("./assets/fonts/AdventPro-Regular.ttf") format("truetype");
+	font-family: Regular;
+	src: url("./assets/fonts/AdventPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: SemiBold;
-  src: url("./assets/fonts/AdventPro-SemiBold.ttf") format("truetype");
+	font-family: SemiBold;
+	src: url("./assets/fonts/AdventPro-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Thin;
-  src: url("./assets/fonts/AdventPro-Thin.ttf") format("truetype");
+	font-family: Thin;
+	src: url("./assets/fonts/AdventPro-Thin.ttf") format("truetype");
 }
 
 body {
-  margin: 0;
-  font-family: Regular;
+	margin: 0;
+	font-family: Regular;
 }
 
 *:focus {
-  outline: none;
+	outline: none;
 }
