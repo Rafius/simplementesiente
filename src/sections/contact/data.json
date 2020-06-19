@@ -1,8 +1,8 @@
 [
 	{
-		"name": "username",
+		"name": "subject",
 		"type": "text",
-		"label": "Username"
+		"label": "Titulo"
 	},
 	{
 		"name": "username",
@@ -10,13 +10,13 @@
 		"label": "Username"
 	},
 	{
-		"name": "username",
+		"name": "email",
 		"type": "text",
-		"label": "Username"
+		"label": "Email"
 	},
 	{
-		"name": "username",
-		"type": "text",
-		"label": "Username"
+		"name": "query",
+		"type": "textarea",
+		"label": "Consulta"
 	}
 ]

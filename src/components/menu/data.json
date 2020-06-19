@@ -15,6 +15,11 @@
 		"index": 2
 	},
 	{
+		"name": "TERAPIA",
+		"route": "/services",
+		"index": 3
+	},
+	{
 		"name": "MANUAL MI HAMBRE Y YO",
 		"route": "/ebook",
 		"index": 4

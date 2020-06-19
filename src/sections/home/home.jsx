@@ -4,7 +4,7 @@ import { description } from "./data.json"
 
 const Home = () => (
 	<HomeWrapper>
-		<Img />
+		{/* <Img /> */}
 		<DescriptionWrapper>{description}</DescriptionWrapper>
 	</HomeWrapper>
 )

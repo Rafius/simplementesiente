@@ -3,7 +3,7 @@ import { Field, reduxForm } from "redux-form"
 import { FormWrapper, FieldWrapper } from "./contact.styled"
 import data from "./data"
 
-const renderField = ({ input, label, type, meta: { touched, error } }) => (
+const renderText = ({ input, label, type, meta: { touched, error } }) => (
 	<FieldWrapper>
 		<label>{label}</label>
 		<div>
@@ -12,6 +12,22 @@ const renderField = ({ input, label, type, meta: { touched, error } }) => (
 		</div>
 	</FieldWrapper>
 )
+
+const renderTextarea = ({ input, label, type, meta: { touched, error } }) => (
+	<FieldWrapper>
+		<label>{label}</label>
+		<div>
+			<textarea {...input} placeholder={label} type={type} />
+			{touched && error && <span>{error}</span>}
+		</div>
+	</FieldWrapper>
+)
+
+const renderField = props => {
+	const { type } = props
+	if (type === "text") return renderText(props)
+	else if (type === "textarea") return renderTextarea(props)
+}
 
 const Contact = ({ sendEmail, error, handleSubmit }) => {
 	const handleButton = () => {
@@ -26,7 +42,7 @@ const Contact = ({ sendEmail, error, handleSubmit }) => {
 
 	return (
 		<FormWrapper>
-			{data.map(({ name, type, component, label }) => (
+			{data.map(({ name, type, label }) => (
 				<Field name={name} type={type} component={renderField} label={label} />
 			))}
 			{error && <strong>{error}</strong>}

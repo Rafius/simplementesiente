@@ -1,14 +1,27 @@
 import React from "react"
-import { NutritionWrapper, Description, Image } from "./nutrition.styled"
-
-import { description } from "./data.json"
+import {
+	NutritionWrapper,
+	Image,
+	InfoWrapper,
+	DataWrapper,
+	Title,
+	Description
+} from "./nutrition.styled"
+import data from "./data.json"
 import Img from "./img.jpg"
 
-const Team = () => (
+const Nutrition = () => (
 	<NutritionWrapper>
-		<Description>{description}</Description>
+		<InfoWrapper>
+			{data.map(({ title, description, index }) => (
+				<DataWrapper key={index}>
+					<Title>{title}</Title>
+					<Description>{description}</Description>
+				</DataWrapper>
+			))}
+		</InfoWrapper>
 		<Image src={Img} />
 	</NutritionWrapper>
 )
 
-export default Team
+export default Nutrition
