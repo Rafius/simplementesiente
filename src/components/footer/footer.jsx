@@ -3,10 +3,10 @@ import { FooterWrapper, IconsWrapper, Icon } from "./footer.styled"
 import icons from "./icons.json"
 
 const Footer = () => (
-	<FooterWrapper>
+	<FooterWrapper data-testid="footer">
 		<IconsWrapper>
 			{icons.map(({ className, index, href, target }) => (
-				<Icon key={index} href={href} target={target}>
+				<Icon data-testid="footer-icon" key={index} href={href} target={target}>
 					<i className={className}> </i>
 				</Icon>
 			))}

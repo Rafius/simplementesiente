@@ -4,7 +4,7 @@ import { MenuWrapper, Item } from "./menu.styled"
 import data from "./data.json"
 
 const Menu = () => {
-	let history = useHistory()
+	const history = useHistory()
 	const getInitialSection = () =>
 		data.find(({ route }) => route === history.location.pathname).index
 	const [activeItem, setActiveItem] = useState(getInitialSection())
@@ -15,15 +15,17 @@ const Menu = () => {
 	}
 
 	return (
-		<MenuWrapper>
-			{data.map(({ name, route, index }) => (
-				<Item
-					key={index}
-					onClick={() => handleClick(route, index)}
-					isActive={index === activeItem}>
-					{name}
-				</Item>
-			))}
+		<MenuWrapper data-testid="menu">
+			{data &&
+				data.map(({ name, route, index }) => (
+					<Item
+						data-testid={`menu-item-${index}`}
+						key={index}
+						onClick={() => handleClick(route, index)}
+						isActive={index === activeItem}>
+						{name}
+					</Item>
+				))}
 		</MenuWrapper>
 	)
 }
